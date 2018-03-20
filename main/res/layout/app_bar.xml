@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.mnnit.athleticmeet.activities.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:titleTextColor="#FFF"
+        app:titleTextColor="#FFF"
+        android:background="?attr/colorPrimary">
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/a"
+
+        android:orientation="vertical"
+        android:alpha="0.8"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/tvanim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:gravity="center"
+            android:shadowColor="#ef071a"
+            android:shadowDx="2.5"
+            android:shadowDy="2.3"
+            android:shadowRadius="2.8"
+            android:text="Athletic Meet"
+            android:textAllCaps="false"
+            android:textColor="#4fdf16"
+            android:textSize="45dp" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/floor2"
+        android:layout_marginTop="263dp"
+        android:padding="5dp" />
+
+
+</android.support.design.widget.CoordinatorLayout>

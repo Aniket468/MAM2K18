@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MAM2K18</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">My Home</string>
+    <string name="nav_inter">Inter College</string>
+    <string name="nav_intra">Intra College</string>
+    <string name="nav_place">Places</string>
+    <string name="nav_contact">Contacts</string>
+    <string name="nav_developer">Developer</string>
+    <string name="nav_rateus">Rate Us</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_about">About Athletic Meet</string>
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>My Home</item>
+        <item>Inter College</item>
+        <item>Intra College</item>
+        <item>Places</item>
+        <item>Contacts</item>
+        <item>Developer</item>
+        <item>Rate Us</item>
+        <item>Share</item>
+        <item>About Athletic Meet</item>
+    </string-array>
+    <string name="title_activity_places">Map</string>
+
+</resources>
+
+

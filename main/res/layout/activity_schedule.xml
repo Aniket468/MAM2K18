@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/backsc"
+    android:orientation="vertical"
+    tools:context="com.mnnit.athleticmeet.activities.Schedule">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:elevation="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFFFFF"
+        android:textSize="45dp"
+        android:background="@color/colorPrimary"
+        android:text="Schedule" />
+</LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:weightSum="2"
+           android:orientation="vertical">
+
+
+           <Button
+               android:id="@+id/interup"
+               android:layout_width="300dp"
+               android:layout_height="240dp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginTop="20dp"
+               android:layout_weight="1"
+               android:layout_gravity="center"
+               android:adjustViewBounds="true"
+               android:background="@drawable/cityscape"
+               android:elegantTextHeight="true"
+               android:elevation="20dp"
+               android:padding="20dp" />
+           <ImageButton
+               android:layout_width="200dp"
+               android:layout_height="30dp"
+               android:layout_gravity="center"
+               android:background="@drawable/cityspace1"/>
+
+
+           <Button
+               android:id="@+id/intraup"
+               android:layout_width="300dp"
+               android:layout_height="300dp"
+               android:layout_marginBottom="50dp"
+               android:layout_marginLeft="60dp"
+               android:layout_marginRight="60dp"
+               android:layout_weight="1"
+               android:layout_gravity="center"
+               android:background="@drawable/intracol">
+
+           </Button>
+
+       </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abb"
+    tools:context="com.mnnit.athleticmeet.activities.About_Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="51st Athletics Meet"
+        android:padding="20dp"
+        android:background="@color/primary"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textSize="25dp"/>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+
+        android:textColor="#f2f2f5"
+        android:padding="20dp"
+
+        android:text="
+An array of Athletic challenging contests, this festival aims to nurture the budding talents of the nation it provides
+a comfortable platform for the youth to perform and keep growing in their fields, and give the nation new Superstars.
+so get ready to burn then up with confidence and lot of cheers.
+"
+        android:gravity="center"/>
+</LinearLayout>

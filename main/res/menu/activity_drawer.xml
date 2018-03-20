@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="My Home" />
+    </group>
+
+        <item android:title="Schedule">
+            <menu>
+                <item
+            android:id="@+id/nav_inter"
+            android:icon="@drawable/inter"
+            android:title="Inter College" />
+        <item
+            android:id="@+id/nav_intra"
+            android:icon="@drawable/intra"
+            android:title="Intra College" />
+            </menu>
+        </item>
+    <item android:title="Info">
+        <menu>
+        <item
+            android:id="@+id/nav_place"
+            android:icon="@drawable/placeholder"
+            android:title="Places" />
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/contacts"
+            android:title="Contacts" />
+        <item
+            android:id="@+id/nav_about"
+            android:title="About Athletic Meet"
+            android:icon="@drawable/athleterunning"/>
+        </menu>
+    </item>
+
+
+
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_rateus"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_developer"
+                android:title="Developer" />
+
+        </menu>
+
+    </item>
+
+</menu>

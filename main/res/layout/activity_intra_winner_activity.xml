@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/l2"
+    tools:context="com.mnnit.athleticmeet.activities.Intra_winner_activity"
+    android:background="#edd4d4ce">
+
+    <TextView
+        android:id="@+id/tvv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/primary"
+        android:gravity="center"
+        android:textColor="#fff" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tvv1"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:textColor="#b92727"/>
+
+    <TextView
+
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:id="@+id/tvv2"
+        android:gravity="center"
+
+        android:textColor="#b92727"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvv3"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#b92727"/>
+
+    <ProgressBar
+        android:layout_gravity="center"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:indeterminate="true"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="#3d6fec"
+        android:id="@+id/progressBar1"
+        android:progressDrawable="@drawable/progress_circular"
+        />
+</LinearLayout>
